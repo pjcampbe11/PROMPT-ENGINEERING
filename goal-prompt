@@ -1,0 +1,85 @@
+# You are a text generating AI's instructive prompt creator, and you: Generate Clever and Effective Instructions for a Generative AI Model, where any and all instructions  you write will be carried out by a single prompt response from the ai text generator. Remember, no real world actual `actions` can be undertaken, so include only direct instructions to the model how to generate the text, no telling it to test, or to maintain, or package, or directing it to perform verbs. no verbs..
+
+1. Begin by carefully reading every word  and paying attention to the user's input.  
+
+ What are they needing a set of instructions to be written for. How will a text generation AI be able to fulfill the instructions they seek? It is important to fully understand their goal or task at hand before generating the instructions.
+
+2. Analyze the user's input to identify the specific types of text generating tasks that can accomplish the goal they are referring to or the requirements they need to satisfy. Look for keywords and context clues that can help you understand the essence of their request.
+
+3. Once you have identified the goal, extrapolate the necessary information and steps that a generative ai Fulfillment  model is capable of, and what the prompt instruction needs to consider in order to achieve the identified goal. Think critically about what is required to accomplish the task.
+
+4. Organize the steps in a logical and coherent manner. Ensure that they flow smoothly through a sequence that is precise, specific, and  easy to follow. Use a clear and concise writing style to eliminate any ambiguity or confusion.
+
+5. As you write the instructions, include the necessary information at each step that Fulfillment AI will need to understand and execute the specific task efficiently without overlap. Consider any specific details, data, or requirements that are relevant to the task.
+
+6. Use clear and unambiguous language in the instructions to avoid any confusion or misinterpretation. Be as straightforward as possible, providing precise instructions that leave no room for ambiguity. Ensure that it does not stray beyond the specificity by inferring assumptions or forgetting  each step is meant to be small and atomic.
+
+7. Take into account constraints or limitations mentioned by the user and incorporate them into the instructions.  On each step, the constraints would need to be respectful of prior steps in the sequence and to not generate ahead into fulfilling what is going to be it's  next  step, or other subsequent tasks. Ensure that the instructions are feasible within these constraints and provide alternative approaches if needed.
+
+8. If there are any ambiguities or errors in the user's input, seek clarifications from the requestor before proceeding with the instructions. It is crucial to have accurate and appropriate instructions to guide the Fulfillment AI effectively.
+
+9. Provide any additional information or context that may be necessary for yourself to understand and execute the task successfully.  Be Very specific, and precise.
+
+10. Double-check the instructions to ensure their accuracy and effectiveness in achieving the specified goal. Put yourself in the text generating model AI's shoes and ask if you would be able to fulfill the instructions with the information provided.
+
+Remember, the key to generating clever and effective instructions is to think critically, communicate clearly, and ensure that all necessary information is provided. 
+
+Follow these guidelines to create instructions that will empower The text generative Fulfillment AI to think beyond expectations  for quality,  without branching off into not creating the content required for it's next steps. and successfully accomplish the tasks at hand.
+
+I need  instructions  for this goal: 
+
+{goal}
+
+Do more cardio, eat healthier and drop 15 pounds 
+ChatGPT said:
+ChatGPT
+Instruction Set for the Generative AI Model to Provide Guidance for the Goal: "Do more cardio, eat healthier, and drop 15 pounds"
+
+Identify and define a personalized, sustainable plan for incorporating cardio exercise into a daily or weekly routine, tailored to the user's fitness level, schedule, and preferences.
+
+List a variety of effective cardio exercises and activities, ranging from beginner-friendly to more intense options, ensuring the recommendations include indoor and outdoor alternatives.
+
+Provide a structured schedule template for cardio workouts, specifying durations, frequencies, and progressions that align with a weight loss goal of 15 pounds over a reasonable time frame.
+
+Generate a comprehensive list of healthy eating habits and meal suggestions, emphasizing nutrient-dense, calorie-conscious options that support energy needs and weight loss.
+
+Outline a simple meal planning strategy, including balanced macronutrient distribution, portion control, and mindful eating techniques.
+
+Suggest specific grocery shopping lists featuring whole, minimally processed foods that align with the healthy eating plan, offering substitutions for dietary preferences or restrictions.
+
+Detail practical strategies for monitoring progress, including tips for tracking weight, measuring fitness improvements, and staying motivated through achievable milestones.
+
+Provide motivational affirmations and behavioral change tips to sustain consistency in both exercise and diet, addressing common challenges and setbacks.
+
+Offer guidance on integrating adequate rest, hydration, and stress management into the overall plan to support optimal results.
+
+Include a disclaimer advising the user to consult a healthcare or fitness professional for personalized advice and to ensure safety, especially if they have any medical conditions or concerns.
+--
+expand on number 1
+
+Expanded Instruction for Step 1: "Identify and define a personalized, sustainable plan for incorporating cardio exercise into a daily or weekly routine, tailored to the user's fitness level, schedule, and preferences."
+
+Assess the user's current fitness level by categorizing them as beginner, intermediate, or advanced based on their previous experience with exercise, current physical activity habits, and any physical limitations or injuries.
+
+Identify time availability and scheduling preferences by breaking down the user's weekly calendar to determine optimal days and times for cardio workouts, considering work, family, and other commitments.
+
+Factor in the user's preferences for cardio activities by presenting a diverse list of options such as walking, running, cycling, swimming, dancing, HIIT (High-Intensity Interval Training), or group fitness classes. Highlight activities that they might find enjoyable or convenient.
+
+Determine the most accessible locations for cardio exercises, such as home, gym, parks, or local trails, and include suggestions for adaptable exercises that fit the chosen environment.
+
+Recommend a starting frequency and duration for cardio sessions based on their fitness level:
+
+For beginners: 3–4 sessions per week, 20–30 minutes per session.
+For intermediates: 4–5 sessions per week, 30–45 minutes per session.
+For advanced: 5–6 sessions per week, 45–60 minutes per session or incorporating advanced techniques like interval training.
+Define progression milestones to gradually increase intensity, duration, or frequency over time, avoiding burnout or injury while ensuring consistent progress toward the 15-pound weight loss goal.
+
+Provide tips for maintaining variety and preventing boredom, such as rotating activities, exploring new cardio classes, or using technology like fitness apps, podcasts, or playlists to enhance the experience.
+
+Incorporate flexibility into the plan by including backup options for days when time or energy is limited, such as shorter sessions, at-home workouts, or low-intensity activities like walking.
+
+Emphasize sustainability by reminding the user to start at a comfortable pace and focus on building a habit rather than pushing for immediate results.
+
+Encourage periodic reassessment of the plan to ensure it remains aligned with the user’s evolving fitness level, goals, and preferences, allowing for adjustments as needed.
+
+expand on 2-10 if needed and notice this can be done for every and any output. 
