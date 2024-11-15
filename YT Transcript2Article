@@ -1,0 +1,1056 @@
+Act as an expert copywriter specializing in content optimization for SEO. Your task is to take a given YouTube transcript and transform it into a well-structured and engaging article. Your objectives are as follows:
+
+Content Transformation: Begin by thoroughly reading the provided YouTube transcript. Understand the main ideas, key points, and the overall message conveyed.
+
+Sentence Structure: While rephrasing the content, pay careful attention to sentence structure. Ensure that the article flows logically and coherently.
+
+Keyword Identification: Identify the main keyword or phrase from the transcript. It's crucial to determine the primary topic that the YouTube video discusses.
+
+Keyword Integration: Incorporate the identified keyword naturally throughout the article. Use it in headings, subheadings, and within the body text. However, avoid overuse or keyword stuffing, as this can negatively affect SEO.
+
+Unique Content: Your goal is to make the article 100% unique. Avoid copying sentences directly from the transcript. Rewrite the content in your own words while retaining the original message and meaning.
+
+SEO Friendliness: Craft the article with SEO best practices in mind. This includes optimizing meta tags (title and meta description), using header tags appropriately, and maintaining an appropriate keyword density.
+
+Engaging and Informative: Ensure that the article is engaging and informative for the reader. It should provide value and insight on the topic discussed in the YouTube video.
+
+Proofreading: Proofread the article for grammar, spelling, and punctuation errors. Ensure it is free of any mistakes that could detract from its quality.
+
+By following these guidelines, create a well-optimized, unique, and informative article that would rank well in search engine results and engage readers effectively.
+
+Transcript:{transcript}
+
+Example transcript
+
+Transcript:
+Introduction
+0:02
+[Applause]
+0:04
+[Music]
+0:09
+in the next few lessons I will introduce
+0:11
+you to the fundamentals of prompt
+0:13
+engineering through various
+0:15
+examples we'll start by understanding
+0:17
+the importance of prompts followed by
+0:19
+the types of prompts we'll then explore
+0:21
+a few examples of how to craft these
+0:24
+prompts I'll also explain what is
+0:27
+hallucination and how to avoid it
+0:29
+through prompting engineering finally
+0:31
+we'll take a closer look at the key
+0:33
+techniques used in prompt engineering
+0:36
+let's get started so in this lesson I'm
+0:39
+going to introduce prompt Engineering in
+0:42
+generative AI essentially generative AI
+What is Prompt Engineering
+0:46
+turns English into a new programming
+0:48
+language that's because it's the new
+0:51
+syntax of generate to
+0:53
+AI similar to how optimized code
+0:56
+generates efficient applications
+0:58
+well-crafted prompts and enable AI
+1:00
+models to produce accurate
+1:03
+output so designing a prompt is more of
+1:06
+an art than
+1:08
+science prompts influence the models to
+1:11
+generate the right output without
+1:13
+explicitly training or fine tuning them
+1:16
+so fine shuring is a technique that
+1:18
+we'll explore in the upcoming lessons
+1:21
+but without explicitly fine-tuning or
+1:25
+retraining the model you can get what
+1:28
+you want by by crafting the right prompt
+1:31
+that is what is called as prompt
+1:35
+engineering so prompt engineering is the
+1:37
+practice of carefully designing and
+1:39
+fine-tuning input prompts to guide an AI
+1:42
+model's response in a designed
+1:45
+Direction it can be especially useful
+1:47
+when dealing with large language models
+1:50
+like GPT where the quality and nature of
+1:52
+the output can be significantly
+1:54
+influenced by the wording and structure
+1:57
+of your input
+1:58
+prompt prompt engineering involves both
+2:01
+an understanding of how the model
+2:03
+processes the input and a creative
+2:06
+approach to designing prompts that guide
+2:08
+the model towards the desired
+2:11
+output it is often used to fine-tune the
+2:14
+performance of an AI system without
+2:17
+really changing the underlying model or
+2:19
+the training
+2:21
+data prompt engineering essentially
+2:24
+influences the model to respond based on
+2:27
+a specific
+2:28
+requirement
+2:30
+lack of prompt engineering leads to
+2:32
+inaccurate and factually incorrect
+2:34
+responses which is often called as
+2:39
+hallucinations so it's important to
+2:42
+understand
+2:43
+the significance of prompt Engineering
+2:46
+in the context of generative AI
+2:48
+essentially what you ask is what you get
+2:51
+so the more detailed you are with your
+2:54
+prompt the more crisp with your prompt
+2:58
+the better the output is
+3:00
+so in the coming lessons we'll take a
+3:02
+closer look at some of the examples
+3:05
+which will drive the Alm towards
+3:07
+generating the desired
+3:09
+output so having understood the
+3:11
+significance of prompt engineering let's
+3:14
+take a look at the key types of promts
+3:16
+that's often used with
+Types of Prompts
+3:19
+llms so there are a variety of
+3:22
+techniques obviously this section only
+3:24
+deals with some of the important types
+3:27
+prompt engineering technically reserves
+3:30
+an entire course so we're not going to
+3:32
+go into the details but I'm going to
+3:36
+cover some of the important aspects and
+3:39
+types of prompt engineering so as you
+3:42
+can see there are a variety of prompts
+3:45
+and we'll take a closer look at each of
+Explicit Prompt
+3:47
+them so there is an explicit prompt
+3:51
+something like write a short story about
+3:53
+a young girl who discovers a magical key
+3:56
+and so on now here if you carefully
+3:58
+notice we are explicitly asking the llm
+4:02
+to write a short story and the theme is
+4:06
+unlocking a hidden door to another world
+4:08
+so this is being as explicit as possible
+4:11
+and this basically drives the llm
+4:15
+towards generating an output that
+4:17
+matches your desired outcome or the
+4:21
+expected outcome so the more explicit
+4:24
+you are the better the output
+4:27
+is similarly there are conversational
+Conversational Prompt
+4:30
+prompts which you typically ask when
+4:33
+you're dealing with a chatbot now in
+4:35
+this case we are actually interacting
+4:39
+with a chatbot as if we are talking to a
+4:42
+human so uh can you tell me a funny joke
+4:46
+about cats now this is a conversational
+4:48
+prompt and this can continue it can
+4:51
+actually tell you a joke and you can ask
+4:54
+something more about it and the
+4:55
+conversation just goes on and on such
+4:58
+prompts are called con conversational
+5:01
+prompts now there are instructional
+Instructional Prompts
+5:04
+prompts which will generate more useful
+5:08
+content uh something like a blog post
+5:12
+now in this prompt we are literally
+5:15
+instructing the llm to write a detailed
+5:18
+blog
+5:19
+post discussing the benefits and
+5:22
+drawbacks of renewable energy and the
+5:24
+outline should be structured as follows
+5:27
+and we also Define what are the section
+5:29
+of this blog post now this is being very
+5:32
+in instructional or prescriptive with
+5:35
+your prompt so you are essentially
+5:39
+handholding the llm and leading it
+5:41
+towards the outcome that is expected
+5:45
+that is what is called instructional
+5:48
+prompt then we have a context based
+Context-Based Prompts
+5:50
+prompt and we will explore this further
+5:53
+as we go along but context based prompts
+5:57
+will provide sufficient context text and
+6:00
+the backstory to the llm before you ask
+6:04
+a specific question so it's a
+6:05
+combination of two things one is the
+6:07
+context the other one is a
+6:10
+conversational prompt so in this this
+6:13
+case uh I'm actually asking to suggest
+6:16
+uh the tourist attractions and local
+6:19
+restaurants uh based on my plan plan
+6:22
+trip to Paris next month so if you see I
+6:25
+have given sufficient context which is
+6:29
+by plan trip to Paris next month and
+6:32
+then it is going to uh Come Back to Me
+6:36
+based on the prompt that follows the
+6:38
+context so here the context is the trip
+6:40
+to Paris and the prompt in itself is the
+6:43
+recommendations about uh restaurants and
+6:46
+tourist attractions and so on so that is
+6:49
+context based prompt the more you feed
+6:52
+in as context the better the llm would
+6:55
+be so you can even copy paste some
+6:58
+context from other websites or your
+7:02
+private data and and this will literally
+7:05
+help or enable the llm to derive
+7:09
+additional context now think of it like
+7:12
+the backstory that you're providing to
+7:13
+the llm before it answers your
+7:16
+question then there are open-ended
+Open-Ended Prompts
+7:19
+prompts which
+7:20
+are very very Broad and they don't
+7:23
+really have any context they don't have
+7:25
+any conversational style prompt they are
+7:27
+very open-ended and they l Force the llm
+7:30
+to be creative and come back with uh
+7:33
+typically a pretty large answer so in
+7:36
+this case we are asking about the impact
+7:38
+of AI which is a very broad topic and
+7:40
+notice that we are not adding any
+7:43
+context and we are not instructing the
+7:46
+llm we are simply asking a very
+7:49
+open-ended uh question about the impact
+7:53
+of AI on society so this is uh a typical
+7:57
+example of an open and Ed
+8:00
+prompt
+8:02
+then there is something called bias
+Bias-Mitigating Prompts
+8:04
+mitigating prompt as you understand llms
+8:09
+are trained on large corpora which
+8:12
+includes publicly available data sets
+8:15
+and obviously the publicly available
+8:16
+data sets are biased because they are
+8:20
+ultimately generated by humans and
+8:22
+humans tend to have biases in their
+8:24
+thinking and in their writing so when
+8:26
+you train an llm on the public data
+8:29
+public that the data that's available in
+8:31
+the public domain you obviously see
+8:34
+certain bias So to avoid that you can
+8:38
+steer the llm towards bias
+8:41
+mitigation now in this example I am
+8:45
+picking up a very sensitive topic which
+8:47
+is cast based reservations in
+8:49
+India now while I pick this topic as an
+8:53
+input to the llm I also provide
+8:57
+additional instruction that says avoid
+9:00
+favoring any particular group ideology
+9:03
+or opinion and focus on factual
+9:06
+information supported by reliable
+9:08
+sources and
+9:10
+also strive for inclusivity and fairness
+9:13
+now this is a pretty detailed prompt and
+9:16
+it it very clearly instructs the llm to
+9:19
+stay away from any bias or any opinion
+9:24
+that is skewed towards a specific group
+9:27
+ideology opinion or a community so this
+9:30
+is how you derive a very objective and
+9:34
+factually correct information from llms
+9:38
+without letting them hallucinate or
+9:41
+generate content that is biased so when
+9:44
+you are crafting a prompt on any any
+9:47
+topic where you know there are biases
+9:50
+and there are highly skewed opinions
+9:54
+this could be one of the ways to avoid
+9:57
+lm's response being being biased by
+10:01
+specifically mentioning what to filter
+10:03
+and what to avoid when you're actually
+10:05
+generating this so that is Biers
+10:08
+mitigating prompt now you can actually
+10:10
+take all of this and try it with chat
+10:13
+GPT uh the resources section has a PDF
+10:17
+with all these prompts so feel free to
+10:19
+copy and paste them in the chat GPT
+10:21
+window and uh see the responses by
+10:24
+yourself of course the response might be
+10:26
+slightly different based on what you see
+10:28
+on the screen uh because llms respond
+10:31
+differently they are non- deterministic
+10:33
+but all these prompts are available to
+10:35
+you to play with and finally the most
+10:38
+interesting part of prompt generation or
+Code Generation Prompts
+10:42
+prompt crafting which is code generation
+10:45
+now llms have been trained on not just
+10:49
+the textual data that is available in
+10:51
+the public domain but they're also
+10:53
+trained on various coding uh Snippets
+10:58
+and coding reports course so uh
+11:01
+obviously that makes them capable of
+11:04
+responding to prompts that deal with
+11:07
+code now in this example I'm asking GPT
+11:12
+to write a python function that takes in
+11:14
+a list of integers as input and Returns
+11:17
+the sum of all the even numbers in the
+11:19
+list now this is a slightly complex code
+11:23
+snippet uh of course it's not very
+11:25
+complex but for a beginner this requires
+11:29
+some kind of research and looking up
+11:32
+docs or looking at stack Overflow Etc
+11:35
+but uh CH GPT is smart enough to come
+11:38
+back with the code snippet that you can
+11:40
+literally copy paste and uh see for
+11:43
+yourself here it actually creates a
+11:45
+function called uh def some even numbers
+11:50
+and then writes the entire logic it also
+11:53
+creates another code snippet that
+11:54
+invokes the function with some sample
+11:56
+data and it also comments what could be
+11:59
+the potential output so this is a very
+12:01
+very helpful
+12:03
+mechanism to generate code that can go
+12:06
+into your uh your your applications of
+12:10
+course you got to be slightly cautious
+12:12
+you got to test this thoroughly before
+12:14
+you include that in your production code
+12:16
+but you can definitely Ray on nlms to
+12:18
+generate code to accelerate your
+12:22
+programming so to summarize we have seen
+12:25
+some of the common examples of from
+12:29
+design which will Ste the llm towards
+12:33
+delivering the desired output or the
+12:35
+outcome without hallucination without uh
+12:39
+uh giving you random answers so so
+12:42
+that's about the lesson where we have
+12:45
+seen the
+12:47
+examples so in this section we have seen
+Key Techniques of Prompt Engineering
+12:50
+various examples and various mechanisms
+12:54
+of crafting The Prompt but there are
+12:56
+some well-proven techniques
+12:59
+that we can use to get the desired
+13:01
+output from the
+13:03
+L so in this lesson we'll explore some
+13:05
+of those key
+13:08
+techniques now
+13:10
+essentially when you are crafting a
+13:12
+prompt it can be one of these three
+13:15
+techniques there is zero short prompting
+13:19
+one short prompting or few short
+13:22
+prompting let's take a closer look at
+13:24
+each of
+13:25
+those so zero shot prompting is a
+Zero Shot Prompting
+13:28
+technique that allows an llm to perform
+13:31
+a task without being explicitly trained
+13:34
+on that
+13:35
+task so this is done by providing the
+13:38
+llm with a prompt that describes the
+13:40
+task and the llm uses its knowledge of
+13:44
+the world to generate the response now
+13:46
+obviously this is based on the
+13:47
+pre-training DAT data that was used to
+13:49
+train this
+13:51
+model for example you could give an llm
+13:54
+The Prompt write a poem about now and
+13:57
+the llm would be able to generate a poem
+13:58
+about La even though it was never
+14:00
+explicitly trained on the task of
+14:03
+writing poems this is again derived from
+14:05
+the pre-training
+14:07
+data zero shot prompting is made
+14:09
+possible by the fact that llms are
+14:12
+trained on massive data sets of text and
+14:15
+code these data sets contain a wide
+14:18
+variety of information um including
+14:21
+information about different tasks and
+14:22
+how to perform them so this allows llm
+14:25
+to learn the general principles of how
+14:28
+to perform in task even if it has never
+14:31
+seen such a task before so zero short
+14:35
+prompting is basically asking a direct
+14:39
+question without any examples or without
+14:43
+any additional context so these are some
+14:46
+of the examples translate the sentence
+14:48
+from English to French summarize this
+14:50
+article in 100 words answer the
+14:52
+following question now if you see there
+14:54
+is no precedence there is no example
+14:56
+that we are setting or in many cases we
+14:59
+don't even provide the context but it is
+15:01
+able to generate the output just based
+15:05
+on a singular prompt and this is called
+15:08
+zero short
+15:10
+prompting now one shot prompting is a
+One Shot Prompting
+15:14
+slightly Advanced
+15:16
+technique now this allows a large
+15:18
+language model to perform a task after
+15:21
+being trained on a single
+15:23
+example this is done by providing the
+15:25
+llm with a prompt uh that describes the
+15:27
+task and llm uses the example to learn
+15:30
+how to perform the task so you give at
+15:33
+least one example to the llm and it uses
+15:37
+that as a reference to finish the output
+15:40
+so oneshot prompting refers to providing
+15:42
+a single instruction or a question to an
+15:45
+AI llm and receiving a coherent and
+15:48
+complete
+15:49
+response so oneshot prompting is made
+15:52
+possible by the fact that llms are able
+15:55
+to learn from very small amounts of data
+15:57
+essentially that's the context are the
+16:00
+examples that you provide uh this is
+16:02
+because llms are trained on massive data
+16:04
+sets and they have the ability to look
+16:09
+at the previous examples and learn from
+16:13
+them even if they are not completely
+16:15
+aware of the domain so when an llm is
+16:19
+given a single
+16:20
+example it can use the example to learn
+16:23
+the specific details of how to perform
+16:25
+the task so onot prompting is a new
+16:29
+technique it is still evolving but if
+16:31
+you use it you're going to see a
+16:33
+significant Improvement in the responses
+16:36
+so let's take an example of uh a few
+16:38
+prompts that use oneshot prompting
+16:41
+technique
+16:43
+so here you provide a prompt write a
+16:47
+short story about a detective solving a
+16:50
+mysterious
+16:51
+murder so you are giving enough hints
+16:55
+and you are giving uh certain examples
+16:58
+that the llm can Leverage What are the
+17:02
+symptoms and
+17:03
+treatments uh treatment options for
+17:05
+seasonal allergies so you know this is
+17:08
+basically a oneshot prompt where you
+17:12
+have the instruction plus an example now
+17:15
+provide a step-by-step guide now that is
+17:18
+the
+17:19
+instruction on how to make a classic
+17:21
+margarita Pisa and and that is a hint or
+17:26
+a one-hot example of what you want the
+17:29
+llm to generate so if you see the
+17:31
+difference between zero shot and one
+17:34
+shot they basically differ in the way
+17:38
+the prompt is constructed in one shot
+17:41
+prompting we have some hint or an
+17:44
+example that the llm can look up to
+17:47
+generate the
+17:49
+response now without that for example if
+17:52
+we go back and look at zero shot here we
+17:58
+we don't have any examples or we don't
+18:01
+have any additional uh context provided
+18:05
+whereas in one shot prompting we have
+18:08
+some kind of a hint in the form of an
+18:11
+example and that's what is actually
+18:13
+called as
+18:14
+oneshot so obviously there is one more
+18:17
+technique which is more powerful and
+Few-Shot Prompting
+18:20
+that is called f shot prompting so few
+18:22
+short learning is a way of instructing
+18:25
+llms where the border is given several
+18:27
+examples
+18:29
+and expected to understand the task
+18:30
+based on those examples so here we we
+18:34
+expand the one shot to include more
+18:36
+examples and then it obviously becomes a
+18:38
+few short prompting technique and this
+18:40
+method is often used to slightly nurge
+18:43
+the model into understanding the context
+18:46
+and format of what's
+18:48
+expected and by providing several
+18:50
+examples within the prompt we provide uh
+18:53
+just enough context for the llm to
+18:55
+derive the pattern once the llm analyz
+18:58
+The Prompt and understands the pattern
+19:00
+that is embedded within the prompt it
+19:03
+continues to generate similar content so
+19:05
+this is almost pushing or nudging the
+19:09
+llm a little bit to generate the output
+19:12
+that we really want uh take a look at
+19:15
+this example so we describe an animal
+19:19
+and we give the output of the animal
+19:23
+itself so for the first two we have a
+19:28
+explained or or described the animal and
+19:30
+then we also called out the animal but
+19:33
+in the third one we describe the
+19:36
+characteristics of that animal but we
+19:38
+don't really provide the output and we
+19:40
+leave it for the llm to
+19:42
+fill so this is actually a good exercise
+19:45
+for you again these prompts are
+19:47
+available in the resources section uh
+19:50
+you can copy and paste and see the
+19:52
+output so feel free to copy and paste
+19:55
+this prompt and see what CH GPT comes
+19:57
+back with
+19:58
+so this is called few shot where you are
+20:01
+providing certain examples and expect
+20:04
+the llm to fill in the blanks by
+20:07
+populating the
+20:09
+out for example if you want to convert a
+20:12
+few sentences from English to French you
+20:16
+give the translation through a few
+20:19
+examples like two or three of them and
+20:22
+then you give another word and you don't
+20:24
+give the translation the llm will come
+20:26
+back and populate that because now we
+20:28
+knows what the top three examples are
+20:31
+are providing and it figures out what
+20:33
+needs to be done with the fourth so that
+20:35
+is called the few short prompting and
+20:37
+it's a very powerful technique and I
+20:39
+strongly encourage you to explore and
+20:42
+craft your own prompts uh that that have
+20:45
+the format of zero short one short and
+20:48
+few short prompting
+20:56
+techniques
+
+This was a 20 min video and grabbing the transcript took 1 min and then 1 more min to run this prompt. 
+
+Here's that output:
+
+Understanding Prompt Engineering in Generative AI: A Comprehensive Guide
+Prompt engineering has become a cornerstone for effectively harnessing the potential of generative AI systems like GPT. This article unpacks the essentials of prompt engineering, highlighting its significance, techniques, and types to help you get the best results from AI models.
+
+What is Prompt Engineering?
+Prompt engineering is the art and science of designing input prompts to guide AI models toward producing accurate and desired outputs. Think of it as crafting instructions in a way that an AI model can understand and act upon, much like writing optimized code to create efficient applications.
+
+Why is Prompt Engineering Important?
+Generative AI models, such as GPT, process language in a way that allows them to generate text, code, and other outputs. However, the quality of their responses is largely influenced by the clarity and specificity of the input prompts. Poorly designed prompts can lead to:
+
+Hallucinations: Incorrect or irrelevant outputs.
+Bias: Responses skewed due to training data.
+Proper prompt engineering mitigates these issues, enabling better accuracy and usability without the need for fine-tuning the underlying model or retraining on specific datasets.
+
+Key Types of Prompts
+Prompt engineering encompasses various approaches tailored to specific tasks and outcomes. Below are the major types:
+
+1. Explicit Prompts
+Explicit prompts are direct and specific. These prompts leave little room for interpretation, ensuring precise responses from the AI.
+
+Example:
+
+"Write a short story about a young girl who discovers a magical key."
+This type of prompt defines the task, theme, and even tone, guiding the AI toward a targeted outcome.
+2. Conversational Prompts
+Designed for chatbots and interactive AI systems, conversational prompts simulate natural human interaction.
+
+Example:
+
+"Can you tell me a funny joke about cats?"
+The AI responds conversationally, continuing the dialogue based on user inputs.
+3. Instructional Prompts
+Instructional prompts involve detailed and prescriptive inputs, often used for generating structured content like essays or blog posts.
+
+Example:
+
+"Write a detailed blog post discussing the benefits and drawbacks of renewable energy. Use the following structure: Introduction, Benefits, Drawbacks, Conclusion."
+4. Context-Based Prompts
+Context-based prompts provide additional background information or context before asking the main question, improving the relevance of responses.
+
+Example:
+
+"I’m planning a trip to Paris next month. Can you suggest some tourist attractions and local restaurants?"
+5. Open-Ended Prompts
+Open-ended prompts encourage creativity and broad responses by not restricting the AI with specifics or context.
+
+Example:
+
+"What is the impact of AI on society?"
+6. Bias-Mitigating Prompts
+These prompts explicitly instruct the AI to avoid bias and ensure fairness, particularly in sensitive or controversial topics.
+
+Example:
+
+"Discuss caste-based reservations in India. Avoid favoring any particular group or ideology. Focus on factual information and inclusivity."
+7. Code Generation Prompts
+Code-related prompts leverage AI’s training on programming data to generate functional code snippets.
+
+Example:
+
+"Write a Python function that takes a list of integers and returns the sum of all even numbers."
+Advanced Techniques in Prompt Engineering
+1. Zero-Shot Prompting
+Zero-shot prompting involves asking the AI to perform a task without any prior examples or context. The model relies solely on its training data to generate a response.
+
+Example:
+
+"Translate this sentence from English to French."
+2. One-Shot Prompting
+In one-shot prompting, a single example is provided to guide the AI, helping it understand the task better.
+
+Example:
+
+Prompt: "Write a short story about a detective solving a mystery. For instance, the story could involve a missing painting."
+3. Few-Shot Prompting
+Few-shot prompting provides multiple examples to establish a clear pattern, enabling the AI to produce consistent and accurate outputs.
+
+Example:
+
+Examples Provided:
+"Translate: Hello (English) → Bonjour (French)."
+"Translate: Goodbye (English) → Au revoir (French)."
+Prompt: "Translate: Thank you (English) → ?"
+Proven Techniques for Effective Prompts
+Be Specific and Detailed:
+
+Define clear expectations and outcomes.
+Specify the tone, format, and purpose of the response.
+Provide Context Where Needed:
+
+Include relevant background information to improve the quality of the response.
+Avoid Overloading with Information:
+
+Keep prompts concise while maintaining clarity.
+Test and Iterate:
+
+Experiment with different phrasing to see which prompt yields the best results.
+Summary
+Prompt engineering is a vital skill for leveraging generative AI effectively. By carefully crafting prompts, users can guide AI models to produce accurate, creative, and unbiased responses across a variety of applications. Whether you’re designing a chatbot, writing a blog, or generating code, mastering prompt engineering techniques—such as zero-shot, one-shot, and few-shot prompting—can unlock the full potential of AI tools.
+
+If you want to try these prompts yourself, tools like ChatGPT and other large language models are excellent platforms for experimentation. Explore, refine, and discover the art of prompt engineering to achieve your desired outcomes.
